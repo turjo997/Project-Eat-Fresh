@@ -1,0 +1,139 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.gray-color {
+    color: rgb(100, 97, 97);
+    font-weight: 1000;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+
+    padding-top: 10%;
+}
+
+.half-width img {
+    width: 120%;
+    padding-right: 50%;
+}
+
+.half-width1 {
+    width: 50%;
+}
+
+.half-width1 img {
+    width: 80%;
+    padding-left: 40%;
+}
+
+.half-width2 {
+    width: 50%;
+    padding-left: 20%;
+    padding-right: 10%;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    font-weight: 700;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.about-me {
+    background-image: url(images/shapes/Frame59.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 0%;
+}
+
+.recipies h2 {
+    text-align: center;
+    color: rgb(100, 97, 97);
+}
+
+.recipies p {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-weight: 300;
+}
+
+.flexible-container1 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.recipie-title {
+    width: 70%;
+    height: 50%;
+    margin-left: 2%;
+    margin-right: 0%;
+    padding-left: 20px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+
+}
+
+.recipie-title img {
+    width: 90%;
+    padding-top: 5%;
+    padding-left: 2%;
+    /* padding-right: 5%;  */
+}
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+.flexible-container2 {
+    display: flex;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 10%;
+}
+
+.container2-contents {
+    text-align: center;
+    padding-left: 15%;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(29, 29, 29);
+    padding-top: 3%;
+    padding-bottom: 7%;
+    margin: 0%;
+}
